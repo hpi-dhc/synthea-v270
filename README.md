@@ -55,7 +55,7 @@ docker run --rm -d --name synthea \
 The synthetic patient data output (persisted as `.csv` files on the host machine) is available in the `./output/csv` folder for inspection and further processing in other projects, e.g., the OMOP import container environment.
 The corresponding JSON-formatted FHIR (v4) data is in the `./output/fhir` folder.
 
-## Notes:
+## Notes
 
 - All settings for Synthea can be changed in the `./synthea.properties` file, e.g., when you wish to have additional STU 3- or DSTU 2-formatted FHIR output). All FHIR JSON files will also be in the `./output` folder.
 - Every time you build a new cohort, you need delete the content of the `./output` folder of your host prior to executing the script.
