@@ -44,7 +44,7 @@ The container will automatically be stopped and removed after the data will have
 
 ```
 docker run --rm -d --name synthea \
-    --mount type=bind,source=$(pwd)/synthea.properties,target=/app/synthea.properties \
+    --mount type=bind,source=$(pwd)/synthea.properties,target=/app/synthea.properties,readonly \
     --mount type=bind,source=$(pwd)/output,target=/app/output \
     -e populationSize=123 \
     synthea-v270
