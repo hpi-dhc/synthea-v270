@@ -1,6 +1,6 @@
 # Instructions for synthea-v270
 
-This repository provides an installation- and hassle-free Docker instance of [Synthea](https://synthetichealth.github.io/synthea/), a tool for generating synthetic patient records.
+This repository provides a Docker instance of [Synthea](https://synthetichealth.github.io/synthea/), a tool for generating synthetic patient records.
 
 ## Setup
 
