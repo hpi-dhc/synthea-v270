@@ -15,8 +15,8 @@ This repository provides a Docker instance of [Synthea](https://synthetichealth.
 Use either of the following two commands to clone this repository to your computer:
 
 ```
-git clone https://gitlab.hpi.de/jan-philipp.sachs/synthea.git
-git clone git@gitlab.hpi.de:jan-philipp.sachs/synthea.git
+git clone https://github.com/hpi-dhc/synthea-v270.git
+git clone git@github.com:hpi-dhc/synthea-v270.git
 ```
 
 On your machine, `cd` to the cloned folder and create an empty folder called `output`.
